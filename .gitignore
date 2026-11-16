@@ -1,0 +1,34 @@
+# Ambientes virtuais e configurações locais
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configurações e arquivos temporários do Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dados locais: manter apenas os arquivos .gitkeep
+/1_dados/originais/*
+!/1_dados/originais/.gitkeep
+
+/1_dados/tratados/*
+!/1_dados/tratados/.gitkeep
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Configurações locais de editores
+.vscode/
+.idea/
